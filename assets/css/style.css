@@ -9,3 +9,17 @@
 body {
   background-color: rgb(213, 219, 221);
 }
+
+header {
+  border: 2px solid black;
+}
+
+.sidebar-menu {
+  border: 2px solid blue;
+}
+main {
+  border: 1px solid greenyellow;
+}
+.sidebar {
+  border: 2px solid red;
+}
