@@ -155,7 +155,7 @@ main {
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 245px;
+  height: 244px;
   background-color: white;
   padding: 1em;
   border-radius: 0.5em;
