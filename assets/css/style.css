@@ -153,10 +153,30 @@ main {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 245px;
   background-color: white;
   padding: 1em;
   border-radius: 0.5em;
   border-left: 0.5em solid #f0b429;
+  box-shadow: 0.3em 0.3em 0.5em gray;
+}
+
+/* .icons-wrapper a {
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.icons-wrapper ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.project-card-icon {
+  color: black;
 }
 .sidebar {
   grid-area: 1 / 4/ 4 / 5;
@@ -168,6 +188,7 @@ main {
   margin-top: 0.5em;
   border-radius: 0.5em;
   margin-bottom: 2em;
+  box-shadow: 0.3em 0.3em 0.5em gray;
 }
 
 .announcements-wrapper .card-wrapper li {
@@ -179,6 +200,10 @@ main {
   border-bottom: 1px solid #d2d2d2;
   padding-bottom: 1em;
   margin-bottom: 1em;
+}
+
+.project-detail-wrapper {
+  flex: 1;
 }
 
 .project-detail,
