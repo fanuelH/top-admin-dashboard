@@ -109,6 +109,8 @@ button {
 
 button:hover {
   background-color: rgba(25, 146, 212, 0.5);
+  transform: translateY(-3px);
+  transition: all 0.3s;
 }
 
 .sidebar-menu {
