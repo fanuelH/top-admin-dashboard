@@ -43,7 +43,7 @@ Box Shadows
 Border Radius
 
 📸 Layout Overview
-![alt text](/assets/images/image.png)
+![alt dashboard overview](/assets/images/image.png)
 
 Sidebar → Contains dashboard title and navigation menu.
 
