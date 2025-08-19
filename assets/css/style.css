@@ -102,9 +102,13 @@ button {
   border-radius: 2em;
   font-weight: bold;
   color: white;
-  background-color: #1992d4;
+  background-color: rgb(25, 146, 212);
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(25, 146, 212, 0.5);
 }
 
 .sidebar-menu {
